@@ -4,7 +4,7 @@ from github import Github
 # GitHub API token
 token = os.environ.get('GITHUB_TOKEN')
 # Create a PyGithub instance
-g = Github(base_url="https://github.com/sathishkumar205/github-action", login_or_token="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")
+g = Github(base_url="https://github.com/sathishkumar205/github-action/api/v3/", login_or_token="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")
 # Stale PR configuration
 pr_stale_days = 0
 # Stale branch configuration
