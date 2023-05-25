@@ -1,5 +1,8 @@
 name: Delete Stale PRs and Branches
 on:
+  push:
+    branches:
+      - main     
   schedule:
     - cron: "* * * * *"  # Runs every day at midnight UTC
 jobs:
