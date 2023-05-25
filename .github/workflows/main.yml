@@ -22,6 +22,6 @@ jobs:
           pip install PyGithub
       - name: Run Python script
         env:
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: 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
         run: |
           python .github/workflows/scripts/dpe_stale_pr_clean.py
